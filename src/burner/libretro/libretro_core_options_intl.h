@@ -449,7 +449,7 @@ struct retro_core_options_v2 options_ast = {
 
 /* RETRO_LANGUAGE_BE */
 
-#define FBA2012CPS2_CPU_SPEED_ADJUST_LABEL_BE NULL
+#define FBA2012CPS2_CPU_SPEED_ADJUST_LABEL_BE "Хуткасць ЦП (%)"
 #define FBA2012CPS2_CPU_SPEED_ADJUST_INFO_0_BE NULL
 #define FBA2012CPS2_HISCORES_LABEL_BE NULL
 #define FBA2012CPS2_HISCORES_INFO_0_BE NULL
@@ -1273,7 +1273,7 @@ struct retro_core_options_v2 options_cht = {
 #define FBA2012CPS2_CPU_SPEED_ADJUST_INFO_0_CS "Umožňuje přetaktování emulovaného procesoru. Může snížit zpomalení, ale může způsobit závady."
 #define FBA2012CPS2_HISCORES_LABEL_CS "Nejvyšší skóre"
 #define FBA2012CPS2_HISCORES_INFO_0_CS "Umožňuje ukládání vysokých skóre v podporovaných hrách. Vyžaduje umístění souboru 'hiscore.dat' do složky system/fbalpha2012/."
-#define FBA2012CPS2_CONTROLS_LABEL_CS "Her. Ovladače"
+#define FBA2012CPS2_CONTROLS_LABEL_CS "Her. ovladače"
 #define FBA2012CPS2_CONTROLS_INFO_0_CS "Nastavení výchozího mapování ovladače."
 #define OPTION_VAL_GAMEPAD_CS NULL
 #define OPTION_VAL_ARCADE_CS "Arkáda"
@@ -1283,15 +1283,15 @@ struct retro_core_options_v2 options_cht = {
 #define OPTION_VAL_PAR_CS NULL
 #define FBA2012CPS2_AUTO_ROTATE_LABEL_CS "Vertikálně Otáčení Zarovnaných Her (Nutný Restart)"
 #define FBA2012CPS2_AUTO_ROTATE_INFO_0_CS "Automatické otáčení displeje při spuštění vertikálně zarovnaných her. Pokud je tato funkce vypnutá, bude se vstup z D-Padu otáčet tak, aby odpovídal směrům na obrazovce."
-#define FBA2012CPS2_LOWPASS_FILTER_LABEL_CS "Audio Filtr"
+#define FBA2012CPS2_LOWPASS_FILTER_LABEL_CS "Filtr zvuku"
 #define FBA2012CPS2_LOWPASS_FILTER_INFO_0_CS "Umožňuje použít nízkoprůchodový zvukový filtr pro zmírnění 'drsného' zvuku některých arkádových her."
-#define FBA2012CPS2_LOWPASS_RANGE_LABEL_CS "Úroveň Zvukového Filtru (%)"
+#define FBA2012CPS2_LOWPASS_RANGE_LABEL_CS "Úroveň zvukového filtru (%)"
 #define FBA2012CPS2_LOWPASS_RANGE_INFO_0_CS "Určuje mezní frekvenci dolní propusti zvukového filtru. Vyšší hodnota zvyšuje vnímanou 'sílu' filtru, protože je potlačen širší rozsah vysokofrekvenčního spektra."
 #define FBA2012CPS2_FRAMESKIP_LABEL_CS NULL
 #define FBA2012CPS2_FRAMESKIP_INFO_0_CS "Přeskočení snímků, aby se zabránilo nedostatečnému využití vyrovnávací paměti zvuku (praskání). Zlepšuje výkon na úkor vizuální plynulosti. Funkce 'Auto' přeskakuje snímky, pokud to doporučí frontend. 'Ruční' využívá nastavení 'Práh přeskakování snímků (%)'."
 #define OPTION_VAL_AUTO_CS NULL
 #define OPTION_VAL_MANUAL_CS "Ruční"
-#define FBA2012CPS2_FRAMESKIP_THRESHOLD_LABEL_CS "Hraniční Hodnota Frameskip (%)"
+#define FBA2012CPS2_FRAMESKIP_THRESHOLD_LABEL_CS "Prahová hodnota Frameskip (%)"
 #define FBA2012CPS2_FRAMESKIP_THRESHOLD_INFO_0_CS "Pokud je položka 'Frameskip' nastavena na hodnotu 'Ruční', určuje práh obsazení vyrovnávací paměti zvuku (v procentech), pod kterým budou snímky přeskočeny. Vyšší hodnoty snižují riziko praskání tím, že způsobují častější vynechávání snímků."
 
 struct retro_core_option_v2_category option_cats_cs[] = {
@@ -6411,13 +6411,13 @@ struct retro_core_options_v2 options_pt_pt = {
 #define FBA2012CPS2_LOWPASS_FILTER_LABEL_RU "Аудиофильтр"
 #define FBA2012CPS2_LOWPASS_FILTER_INFO_0_RU "Включает фильтр нижних частот для смягчения звука некоторых аркадных игр."
 #define FBA2012CPS2_LOWPASS_RANGE_LABEL_RU "Уровень аудиофильтра (%)"
-#define FBA2012CPS2_LOWPASS_RANGE_INFO_0_RU "Настройка частоты среза для низкочастотного фильтра. Большие значения усиливают эффект от фильтра за счёт влияния на более широкий спектр высоких частот."
+#define FBA2012CPS2_LOWPASS_RANGE_INFO_0_RU "Настройка частоты среза для низкочастотного фильтра. Более высокие значения усиливают эффект фильтрации за счёт влияния на расширенный диапазон высоких частот."
 #define FBA2012CPS2_FRAMESKIP_LABEL_RU "Пропуск кадров"
-#define FBA2012CPS2_FRAMESKIP_INFO_0_RU "Пропускать кадры, чтобы избежать опустошения аудиобуфера (треск). Улучшает производительность, но снижает плавность изображения. В режиме 'Авто' пропуск кадров регулируется фронтендом. В режиме 'Вручную' используется настройка 'Граница пропуска кадров (%)'."
+#define FBA2012CPS2_FRAMESKIP_INFO_0_RU "Пропускать кадры, чтобы избежать появления треска при опустошении аудиобуфера. Улучшает производительность, но снижает плавность изображения. В режиме 'Авто' пропуск кадров регулируется фронтендом. В режиме 'Вручную' используется значение опции 'Граница пропуска кадров (%)'."
 #define OPTION_VAL_AUTO_RU "Авто"
 #define OPTION_VAL_MANUAL_RU "Вручную"
 #define FBA2012CPS2_FRAMESKIP_THRESHOLD_LABEL_RU "Граница пропуска кадров (%)"
-#define FBA2012CPS2_FRAMESKIP_THRESHOLD_INFO_0_RU "Устанавливает порог заполнения аудиобуфера (в процентах), ниже которого будет включаться пропуск кадров, если для параметра 'Пропуск кадров' выбран режим 'Вручную'. Большие значения снижают вероятность появления треска за счёт более частого пропуска кадров."
+#define FBA2012CPS2_FRAMESKIP_THRESHOLD_INFO_0_RU "Устанавливает порог заполнения аудиобуфера ниже которого будет включаться пропуск кадров, если для опции 'Пропуск кадров' выбрано значение 'Вручную'. Большие значения снижают вероятность появления треска за счёт более частого пропуска кадров."
 
 struct retro_core_option_v2_category option_cats_ru[] = {
    { NULL, NULL, NULL },
@@ -7013,12 +7013,12 @@ struct retro_core_options_v2 options_sr = {
 #define FBA2012CPS2_CPU_SPEED_ADJUST_INFO_0_SV "Aktiverar överklockning av den emulerade CPU: n. Kan minska tröghet, men kan orsaka problem."
 #define FBA2012CPS2_HISCORES_LABEL_SV "Bästa resultat"
 #define FBA2012CPS2_HISCORES_INFO_0_SV "Aktiverar sparande av bästa resultat i stödda spel. Kräver att filen 'hiscore.dat' placeras i din system/fbalpha2012/-mapp."
-#define FBA2012CPS2_CONTROLS_LABEL_SV "Kontroller"
+#define FBA2012CPS2_CONTROLS_LABEL_SV "Spelkontroller"
 #define FBA2012CPS2_CONTROLS_INFO_0_SV "Ange standardmappning för kontrollen."
 #define OPTION_VAL_GAMEPAD_SV "Gamepad-kontroller"
 #define OPTION_VAL_ARCADE_SV "Arkad"
-#define FBA2012CPS2_ASPECT_LABEL_SV "Kärnspecifikt bildförhållande"
-#define FBA2012CPS2_ASPECT_INFO_0_SV "Väljer önskat innehållsbildförhållande. Detta kommer endast att tillämpas när RetroArchs bildförhållande är inställt på \"Kärnspecifikt\" i Videoinställningarna."
+#define FBA2012CPS2_ASPECT_LABEL_SV "Kärnspecifikt bildformat"
+#define FBA2012CPS2_ASPECT_INFO_0_SV "Väljer föredraget bildformat för innehåll. Detta kommer endast att tillämpas när RetroArchs bildformat är inställt på 'Kärnspecifikt' i Video-inställningarna."
 #define OPTION_VAL_DAR_SV NULL
 #define OPTION_VAL_PAR_SV NULL
 #define FBA2012CPS2_AUTO_ROTATE_LABEL_SV "Rotera vertikalt inriktade spel (Omstart krävs)"
@@ -7027,11 +7027,11 @@ struct retro_core_options_v2 options_sr = {
 #define FBA2012CPS2_LOWPASS_FILTER_INFO_0_SV "Aktiverar ett lågpassljudfilter för att mildra det \"skarpa\" ljudet i vissa arkadspel."
 #define FBA2012CPS2_LOWPASS_RANGE_LABEL_SV "Ljudfilternivå (%)"
 #define FBA2012CPS2_LOWPASS_RANGE_INFO_0_SV "Anger avskärningsfrekvensen för det lågpassiga ljudfiltret. Ett högre värde ökar den upplevda \"styrkan\" hos filtret, eftersom ett bredare område av den höga frekvensspektrumet dämpas."
-#define FBA2012CPS2_FRAMESKIP_LABEL_SV "Bildruteskippning"
+#define FBA2012CPS2_FRAMESKIP_LABEL_SV NULL
 #define FBA2012CPS2_FRAMESKIP_INFO_0_SV "Hoppa över bildrutor för att undvika ljudbuffert-underkörning (sprakande). Förbättrar prestanda på bekostnad av visuell jämnhet. \"Automatiskt\" hoppar över bildrutor när det rekommenderas av gränssnittet. \"Manuell\" använder inställningen \"Bildrutetröskel (%)\" för att hoppa över bildrutor."
-#define OPTION_VAL_AUTO_SV "Automatiskt"
+#define OPTION_VAL_AUTO_SV NULL
 #define OPTION_VAL_MANUAL_SV "Manuell"
-#define FBA2012CPS2_FRAMESKIP_THRESHOLD_LABEL_SV "Bildrutetröskel (%)"
+#define FBA2012CPS2_FRAMESKIP_THRESHOLD_LABEL_SV "Frameskip Tröskelvärde (%)"
 #define FBA2012CPS2_FRAMESKIP_THRESHOLD_INFO_0_SV "När 'Frameskip' är satt till 'Manuell', ange ljudbuffertens tröskel (i procent) under vilka ramar som kommer att hoppas över. Högre värden minskar risken för hackigt ljud genom att bildrutor tappas oftare."
 
 struct retro_core_option_v2_category option_cats_sv[] = {
