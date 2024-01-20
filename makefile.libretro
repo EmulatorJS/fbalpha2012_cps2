@@ -1,6 +1,7 @@
 DEBUG = 0
 LIBRETRO_OPTIMIZATIONS = 1
 FRONTEND_SUPPORTS_RGB565 = 1
+EMULATORJS_THREADS ?= 0
 
 ifeq ($(platform),)
 platform = unix
@@ -271,6 +272,11 @@ else ifeq ($(platform), emscripten)
    PLATFORM_DEFINES := -DUSE_FILE32API
    EXTERNAL_ZLIB = 1
 	STATIC_LINKING = 1
+	ifeq ($(EMULATORJS_THREADS), 1)
+		LDFLAGS += -pthread
+		CFLAGS += -pthread
+		CXXFLAGS += -pthread
+	endif
 
 # GCW0
 else ifeq ($(platform), gcw0)
