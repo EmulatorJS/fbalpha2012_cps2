@@ -450,29 +450,29 @@ struct retro_core_options_v2 options_ast = {
 /* RETRO_LANGUAGE_BE */
 
 #define FBA2012CPS2_CPU_SPEED_ADJUST_LABEL_BE "Хуткасць ЦП (%)"
-#define FBA2012CPS2_CPU_SPEED_ADJUST_INFO_0_BE NULL
-#define FBA2012CPS2_HISCORES_LABEL_BE NULL
-#define FBA2012CPS2_HISCORES_INFO_0_BE NULL
+#define FBA2012CPS2_CPU_SPEED_ADJUST_INFO_0_BE "Уключае разгон эмуляванага CPU. Можа ўстараняць запавольванні, але прыводзіць да памылак."
+#define FBA2012CPS2_HISCORES_LABEL_BE "Лепшыя вынікі"
+#define FBA2012CPS2_HISCORES_INFO_0_BE "Уключае захаванне лепшых вынікаў у гульнях. Патрабуецца наяўнасць файла 'hiscore.dat' у каталогу system/fbalpha2012/."
 #define FBA2012CPS2_CONTROLS_LABEL_BE "Кіраванне"
-#define FBA2012CPS2_CONTROLS_INFO_0_BE NULL
-#define OPTION_VAL_GAMEPAD_BE NULL
-#define OPTION_VAL_ARCADE_BE NULL
-#define FBA2012CPS2_ASPECT_LABEL_BE NULL
-#define FBA2012CPS2_ASPECT_INFO_0_BE NULL
+#define FBA2012CPS2_CONTROLS_INFO_0_BE "Выбар стандартнай раскладкі кантролера."
+#define OPTION_VAL_GAMEPAD_BE "Геймпад"
+#define OPTION_VAL_ARCADE_BE "Аркада"
+#define FBA2012CPS2_ASPECT_LABEL_BE "Забяспечаныя ядром суадносіны бакоў"
+#define FBA2012CPS2_ASPECT_INFO_0_BE "Выбар пераважных суадносін бакоў кантэнту. Ужываецца толькі пры выбары рэжыму суадносін бакоў 'Налада ядра' у наладах відэа RetroArch."
 #define OPTION_VAL_DAR_BE NULL
 #define OPTION_VAL_PAR_BE NULL
-#define FBA2012CPS2_AUTO_ROTATE_LABEL_BE NULL
-#define FBA2012CPS2_AUTO_ROTATE_INFO_0_BE NULL
-#define FBA2012CPS2_LOWPASS_FILTER_LABEL_BE NULL
-#define FBA2012CPS2_LOWPASS_FILTER_INFO_0_BE NULL
-#define FBA2012CPS2_LOWPASS_RANGE_LABEL_BE NULL
-#define FBA2012CPS2_LOWPASS_RANGE_INFO_0_BE NULL
-#define FBA2012CPS2_FRAMESKIP_LABEL_BE NULL
-#define FBA2012CPS2_FRAMESKIP_INFO_0_BE NULL
+#define FBA2012CPS2_AUTO_ROTATE_LABEL_BE "Паварот гульняў у вертыкальнай арыентацыі (патрабуецца перазапуск)"
+#define FBA2012CPS2_AUTO_ROTATE_INFO_0_BE "Аўтаматычна паварочваць экран пры запуску вертыкальна арыентаваных гульняў. Пры адключэнні, націскі D-Pad будуць разгорнутыя для адпаведнасці напрамкам на экране."
+#define FBA2012CPS2_LOWPASS_FILTER_LABEL_BE "Аўдыяфільтр"
+#define FBA2012CPS2_LOWPASS_FILTER_INFO_0_BE "Уключае фільтр ніжніх частот для змякчэння гуку некаторых аркадных гульняў."
+#define FBA2012CPS2_LOWPASS_RANGE_LABEL_BE "Узровень аўдыяфільтра (%)"
+#define FBA2012CPS2_LOWPASS_RANGE_INFO_0_BE "Ўстаноўка частаты зрэзу для нізкачастотнага аўдыяфільтра. Большыя значэнні ўзмацняюць эфект фільтрацыі для зніжэння ўплыву на больш шырокі дыяпазон высокай частаты."
+#define FBA2012CPS2_FRAMESKIP_LABEL_BE "Прапусканне кадраў"
+#define FBA2012CPS2_FRAMESKIP_INFO_0_BE "Прапускаць кадры, каб пазбегнуць з'яўлення (трэска) пры спусташэнні аўдыёбуфера. Паляпшае прадукцыйнасць, але зніжае плаўнасць выявы. У рэжыме 'Аўта' пропуск кадраў рэгулюецца франтэндам. У рэжыме 'Уручную' выкарыстоўваецца значэнне опцыі 'Мяжа пропуску кадраў (%)'."
 #define OPTION_VAL_AUTO_BE "Аўта"
-#define OPTION_VAL_MANUAL_BE NULL
-#define FBA2012CPS2_FRAMESKIP_THRESHOLD_LABEL_BE NULL
-#define FBA2012CPS2_FRAMESKIP_THRESHOLD_INFO_0_BE NULL
+#define OPTION_VAL_MANUAL_BE "Уручную"
+#define FBA2012CPS2_FRAMESKIP_THRESHOLD_LABEL_BE "Парог прапускання кадраў (%)"
+#define FBA2012CPS2_FRAMESKIP_THRESHOLD_INFO_0_BE "Усталёўвае парог запаўнення аўдыёбуфера (у працэнтах), ніжэй за які будзе ўключацца пропуск кадраў, калі для параметра 'Пропуск кадраў' выбраны рэжым 'Уручную'. Вялікія значэнні змяншаюць верагоднасць з'яўлення трэска за рахунак больш частага пропуску кадраў."
 
 struct retro_core_option_v2_category option_cats_be[] = {
    { NULL, NULL, NULL },
@@ -859,30 +859,30 @@ struct retro_core_options_v2 options_bg = {
 
 /* RETRO_LANGUAGE_CA */
 
-#define FBA2012CPS2_CPU_SPEED_ADJUST_LABEL_CA NULL
-#define FBA2012CPS2_CPU_SPEED_ADJUST_INFO_0_CA NULL
-#define FBA2012CPS2_HISCORES_LABEL_CA NULL
-#define FBA2012CPS2_HISCORES_INFO_0_CA NULL
+#define FBA2012CPS2_CPU_SPEED_ADJUST_LABEL_CA "Velocitat de la CPU (%)"
+#define FBA2012CPS2_CPU_SPEED_ADJUST_INFO_0_CA "Augmenta la velocitat de la CPU emulada. Pot reduir els alentiments en els jocs, però pot causar errors gràfics."
+#define FBA2012CPS2_HISCORES_LABEL_CA "Puntuacions més altes"
+#define FBA2012CPS2_HISCORES_INFO_0_CA "Habilitar el desat de les puntuacions més altes en els jocs que ho permeten. És necessari un fitxer 'hiscore.dat' en la carpeta 'system/fbalpha2012/."
 #define FBA2012CPS2_CONTROLS_LABEL_CA NULL
-#define FBA2012CPS2_CONTROLS_INFO_0_CA NULL
-#define OPTION_VAL_GAMEPAD_CA NULL
+#define FBA2012CPS2_CONTROLS_INFO_0_CA "Estableix l'assignació predeterminada pels controladors."
+#define OPTION_VAL_GAMEPAD_CA "Comandament"
 #define OPTION_VAL_ARCADE_CA NULL
-#define FBA2012CPS2_ASPECT_LABEL_CA NULL
-#define FBA2012CPS2_ASPECT_INFO_0_CA NULL
+#define FBA2012CPS2_ASPECT_LABEL_CA "Relació d'aspecte proveïda pel nucli"
+#define FBA2012CPS2_ASPECT_INFO_0_CA "Escull la relació d'aspecte preferida. Aquesta relació d'aspecte només s'aplicarà si la relació d'aspecte a RetroArch està fixada a 'Core provided' en la configuració de vídeo."
 #define OPTION_VAL_DAR_CA NULL
 #define OPTION_VAL_PAR_CA NULL
-#define FBA2012CPS2_AUTO_ROTATE_LABEL_CA NULL
-#define FBA2012CPS2_AUTO_ROTATE_INFO_0_CA NULL
-#define FBA2012CPS2_LOWPASS_FILTER_LABEL_CA NULL
-#define FBA2012CPS2_LOWPASS_FILTER_INFO_0_CA NULL
-#define FBA2012CPS2_LOWPASS_RANGE_LABEL_CA NULL
-#define FBA2012CPS2_LOWPASS_RANGE_INFO_0_CA NULL
-#define FBA2012CPS2_FRAMESKIP_LABEL_CA NULL
-#define FBA2012CPS2_FRAMESKIP_INFO_0_CA NULL
+#define FBA2012CPS2_AUTO_ROTATE_LABEL_CA "Girar els jocs que tenen una alineació vertical (Es requereix reinici)"
+#define FBA2012CPS2_AUTO_ROTATE_INFO_0_CA "Gira automàticament la pantalla en els jocs amb alineació vertical. Si aquesta opció està desactivada, l'entrada de la creueta girarà perquè l'entrada de la creueta coincideixi amb la creueta en pantalla."
+#define FBA2012CPS2_LOWPASS_FILTER_LABEL_CA "Filtre d'àudio"
+#define FBA2012CPS2_LOWPASS_FILTER_INFO_0_CA "Habilita un filtre d'àudio passabaix per suavitzar els pics de so en alguns jocs arcade."
+#define FBA2012CPS2_LOWPASS_RANGE_LABEL_CA "Nivell del filtre d'àudio (%)"
+#define FBA2012CPS2_LOWPASS_RANGE_INFO_0_CA "Especifica el tall de freqüència del filtre d'àudio passabaix. Un valor alt es pot captar com un filtre amb més força, perquè esmorteeix un rang més gran de freqüències altes."
+#define FBA2012CPS2_FRAMESKIP_LABEL_CA "Ometre fotogrames"
+#define FBA2012CPS2_FRAMESKIP_INFO_0_CA "Omet fotogrames per no saturar la memòria intermèdia de l'àudio. Millora el rendiment a canvi de perdre fluïdesa visual. Selecció automàtica omet fotogrames a petició del front-end. El valor manual ajusta el llindar d'omissió de fotogrames (%)."
 #define OPTION_VAL_AUTO_CA "Automàtic"
 #define OPTION_VAL_MANUAL_CA NULL
-#define FBA2012CPS2_FRAMESKIP_THRESHOLD_LABEL_CA NULL
-#define FBA2012CPS2_FRAMESKIP_THRESHOLD_INFO_0_CA NULL
+#define FBA2012CPS2_FRAMESKIP_THRESHOLD_LABEL_CA "Llindar d'omissió de fotogrames (%)"
+#define FBA2012CPS2_FRAMESKIP_THRESHOLD_INFO_0_CA "Si l'omissió de fotogrames està fixada a 'Manual', aquesta opció selecciona el llindar inferior de la memòria intermèdia de l'àudio (en percentatge) per sota del no s'ometrà cap fotograma. Un valor més alt redueix el risc dels errors d'àudio, ometent fotogrames amb més freqüència."
 
 struct retro_core_option_v2_category option_cats_ca[] = {
    { NULL, NULL, NULL },
@@ -1064,7 +1064,7 @@ struct retro_core_options_v2 options_ca = {
 
 /* RETRO_LANGUAGE_CHS */
 
-#define FBA2012CPS2_CPU_SPEED_ADJUST_LABEL_CHS NULL
+#define FBA2012CPS2_CPU_SPEED_ADJUST_LABEL_CHS "CPU 速度 (%)"
 #define FBA2012CPS2_CPU_SPEED_ADJUST_INFO_0_CHS "启用模拟CPU的超频功能。此功能可以提升运行速度，但可能会导致屏幕闪烁。"
 #define FBA2012CPS2_HISCORES_LABEL_CHS NULL
 #define FBA2012CPS2_HISCORES_INFO_0_CHS NULL
@@ -4972,7 +4972,7 @@ struct retro_core_options_v2 options_it = {
 #define OPTION_VAL_DAR_JA NULL
 #define OPTION_VAL_PAR_JA NULL
 #define FBA2012CPS2_AUTO_ROTATE_LABEL_JA "垂直方向に整列したゲームを回転させる (再起動が必要)"
-#define FBA2012CPS2_AUTO_ROTATE_INFO_0_JA "縦向きのゲームを実行するときに画面を自動的に回転させます。無効にすると、画面上の方向に合わせて十字キー入力が回転します。"
+#define FBA2012CPS2_AUTO_ROTATE_INFO_0_JA "縦向きのゲームを実行する際に画面を自動的に回転させます。無効にすると、画面上の方向に合わせて十字キー入力が回転します。"
 #define FBA2012CPS2_LOWPASS_FILTER_LABEL_JA "オーディオフィルター"
 #define FBA2012CPS2_LOWPASS_FILTER_INFO_0_JA "ローパスオーディオフィルターを有効にして、いくつかのアーケードゲームの「硬い音」を柔らかくします。"
 #define FBA2012CPS2_LOWPASS_RANGE_LABEL_JA "オーディオフィルターレベル (%)"
@@ -7644,7 +7644,7 @@ struct retro_core_options_v2 options_tr = {
 #define FBA2012CPS2_LOWPASS_RANGE_INFO_0_TT NULL
 #define FBA2012CPS2_FRAMESKIP_LABEL_TT NULL
 #define FBA2012CPS2_FRAMESKIP_INFO_0_TT NULL
-#define OPTION_VAL_AUTO_TT NULL
+#define OPTION_VAL_AUTO_TT "Автоматик"
 #define OPTION_VAL_MANUAL_TT NULL
 #define FBA2012CPS2_FRAMESKIP_THRESHOLD_LABEL_TT NULL
 #define FBA2012CPS2_FRAMESKIP_THRESHOLD_INFO_0_TT NULL
